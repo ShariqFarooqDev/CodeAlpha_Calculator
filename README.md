@@ -1,162 +1,136 @@
-# CodeAlpha_Calculator
+# Basic Calculator
 
-##  Table of Contents
-
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+A responsive, browser-based calculator that supports **basic** and **scientific operations**, complete with a **history panel**.  
+Built using **HTML, CSS, and JavaScript**, the calculator features a modern **glassmorphism UI**, keyboard support, and animated button effects.
 
 ---
 
-##  Overview
+## Table of Contents
 
-<code>❯ REPLACE-ME</code>
+- [Features](#features)  
+- [Demo](#demo)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Configuration](#configuration)  
+- [Examples](#examples)  
+- [Troubleshooting](#troubleshooting)  
+- [Contributors](#contributors)  
+- [License](#license)  
 
 ---
 
-##  Features
+## Features
 
-<code>❯ REPLACE-ME</code>
+- **Basic operations**: `+`, `-`, `×`, `÷`, `%`.  
+- **Scientific functions**:  
+  - `sin`, `cos`, `tan` (toggle between degrees and radians).  
+  - Square root `√`.  
+  - Exponentiation `^`.  
+  - Constants: `π` and `e`.  
+- **History panel**:  
+  - Stores last **10 calculations**.  
+  - Clearable with a single button.  
+- **Keyboard support**:  
+  - Numbers `0–9`, decimal `.`, operators `+ - * /`.  
+  - `Enter` → evaluate (`=`).  
+  - `Escape` → clear (`AC`).  
+  - `Backspace` → delete last digit.  
+- **Responsive design**: Works on desktops, tablets, and mobile devices.  
+- **Glassmorphism styling** with button press animations.  
+- **Error handling**: Displays `"Error"` for invalid operations (e.g., sqrt of negative numbers).  
 
 ---
 
-##  Project Structure
+## Demo
 
-```sh
-└── CodeAlpha_Calculator/
-    ├── LICENSE
-    ├── README.md
-    ├── index.html
-    ├── script.js
-    └── styles.css
+To run the calculator, simply open the `index.html` file in your browser.  
+No build tools or server setup required.
+
+---
+
+## Installation
+
+1. Clone or download this repository:  
+   ```bash
+   git clone https://github.com/your-username/basic-calculator.git
+   cd basic-calculator
+   ```
+2. Open `index.html` in your browser.
+
+---
+
+## Usage
+
+- Click buttons on the interface or use your keyboard to enter expressions.  
+- Press **AC** to reset the calculator.  
+- Switch between **DEG** and **RAD** modes for trigonometric functions.  
+- Review your past calculations in the **History panel**.  
+- Clear history with the **Clear History** button.  
+
+---
+
+## Project Structure
+
+```plaintext
+basic-calculator/
+├── index.html      # Main HTML layout
+├── styles.css      # CSS styles (glassmorphism & responsiveness)
+├── script.js       # Calculator logic & history handling
+└── README.md       # Documentation
 ```
 
-
-###  Project Index
-<details open>
-	<summary><b><code>CODEALPHA_CALCULATOR/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/blob/master/script.js'>script.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/blob/master/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/blob/master/styles.css'>styles.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-</details>
-
 ---
-##  Getting Started
 
-###  Prerequisites
+## Configuration
 
-Before getting started with CodeAlpha_Calculator, ensure your runtime environment meets the following requirements:
-
-- **Programming Language:** JavaScript
-
-
-###  Installation
-
-Install CodeAlpha_Calculator using one of the following methods:
-
-**Build from source:**
-
-1. Clone the CodeAlpha_Calculator repository:
-```sh
-❯ git clone https://github.com/ShariqFarooqDev/CodeAlpha_Calculator
-```
-
-2. Navigate to the project directory:
-```sh
-❯ cd CodeAlpha_Calculator
-```
-
-3. Install the project dependencies:
-
-echo 'INSERT-INSTALL-COMMAND-HERE'
-
-
-
-###  Usage
-Run CodeAlpha_Calculator using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
-
-###  Testing
-Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
-
-##  Contributing
-
-- **💬 [Join the Discussions](https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/issues)**: Submit bugs found or log feature requests for the `CodeAlpha_Calculator` project.
-- **💡 [Submit Pull Requests](https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone https://github.com/ShariqFarooqDev/CodeAlpha_Calculator
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/ShariqFarooqDev/CodeAlpha_Calculator/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=ShariqFarooqDev/CodeAlpha_Calculator">
-   </a>
-</p>
-</details>
+- External dependency: [Font Awesome](https://cdnjs.com/libraries/font-awesome) for button icons (loaded via CDN).  
+- All logic runs client-side — no additional configuration required.  
 
 ---
 
-##  License
+## Examples
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+**Example 1**  
+Input: `2 + 3 * 4`  
+Output: `14`  
+
+**Example 2**  
+Input: `sin(30)` with `DEG` mode  
+Output: `0.5`  
+
+**Example 3**  
+Input: `√(25)`  
+Output: `5`  
+
+**Example 4**  
+Input: `(10 + 5) / 3`  
+Output: `5`  
 
 ---
 
-##  Acknowledgments
+## Troubleshooting
 
-- List any resources, contributors, inspiration, etc. here.
+- **Problem:** Display shows `"Error"`.  
+  **Solution:** Invalid input (e.g., division by zero, invalid characters, negative square root). Press **AC** to reset.  
+
+- **Problem:** Trigonometric results look incorrect.  
+  **Solution:** Check angle mode (**DEG vs RAD**).  
+
+- **Problem:** Calculator doesn’t respond to keyboard input.  
+  **Solution:** Ensure browser focus is on the calculator window.  
 
 ---
+
+## Contributors
+
+- **Your Name** – Initial Development  
+
+Contributions are welcome! Fork this repo and submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute with attribution.
