@@ -106,15 +106,6 @@ echo 'INSERT-RUN-COMMAND-HERE'
 Run the test suite using the following command:
 echo 'INSERT-TEST-COMMAND-HERE'
 
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
----
-
 ##  Contributing
 
 - **💬 [Join the Discussions](https://github.com/ShariqFarooqDev/CodeAlpha_Calculator/discussions)**: Share your insights, provide feedback, or ask questions.
